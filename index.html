@@ -27,6 +27,7 @@
   <body>
     <h1></h1>
  <!-- Used Bootstrap 4's col system -->
+ <div class="topnav">
     <ul class="nav">
         <li class="nav-item">
           <a class="nav-link active" href="#">Work</a>
@@ -41,17 +42,116 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
       </ul>
+    </div>
 
  <!-- Used Bootstrap 4's jumbotron system -->
-      <div class="jumbotron">
+    <div class="jumbotron">
         <h1 class="display-4">Shelter to Soldier</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="lead">Designing a responsive web based solution for both donors and applicants</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+    </div>
+
+<!-- Used Bootstrap 4's top aligned media system -->
+
+<div class="media">
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="images/Shelterhero.png" class="align-self-start mr-3" alt="...">
+          </div>
+          <div class="col">
+            <div class="media-body">
+                <h5 class="mt-0"></h5>
+                <p>Shelter to Soldier is a non-profit located in Oceanside, California. Their moto:” SAVING LIVES, TWO AT A TIME™” is the perfect summary of what they do as they bring post-9/11 combat veterans together with trained rescue dogs and as in their words they “help both recover and move forward.” We chose this non-profit because we loved how they were helping not only the animals but also our veterans at the same time.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+      
+
+<!-- Used Bootstrap 4's accordion system -->
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                User
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="images/Veteran.png" class="align-self-start mr-3" alt="...">
+                      </div>
+                      <div class="col">
+                        <br></br>
+                        <strong>We defined two separate user personas: one being the donor and one being the veteran applicant.</strong> 
+                        <br></br>
+                        <br>Knowing that the Veteran might have potentially significant challenges due to their injuries we hypothesized they might need a clear and straight forward application process.</br>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                          <br></br>
+                        The donor would need information on why it is beneficial to donate and so we moved the statistics information which contained potentially sensitive information to the Veterans to the donate page.
+                      </div>
+                      <div class="col">
+                        <img src="images/Business.png" class="align-self-start mr-3" alt="...">
+                      </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Hypothesis
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                We believe that by streamlining the application process, veterans with accessibility challenges will achieve greater application success while reducing abandoned applications. In the future Shelter to Soldier could track their abandoned application rate to see if our changes made a difference.
+<br></br>
+                • Ability to create and account and save progress
+                <br></br>
+                • Ability to clearly see process and what documentation is required
+                <br></br>
+                • Decrease use of large text boxes and instead create information chunking to decrease errors.
+            </div>
+          </div>
+        </div>
       </div>
+
+
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Prototype</a>
+      </p>
+
+
+<!-- Used Bootstrap 4's list group item action system -->
+
+    <div class="casestudynav">
+        <p class="title">UX/UI Team:</p>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Tabatha Bui</a>
+            <a href="#" class="list-group-item list-group-item-action">Ana Rodarte</a>
+            <a href="#" class="list-group-item list-group-item-action">Zachary Haley</a>
+            <a href="#" class="list-group-item list-group-item-action">Yvonne Lee</a>
+            
+          </div>
+    </div>
+     
 
 
   </body>
