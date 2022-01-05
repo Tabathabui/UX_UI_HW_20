@@ -48,7 +48,7 @@
 }
 
 .lead{ 
-    margin-left: 30px;
+   
 }
 
 .media {
@@ -61,9 +61,7 @@ img[src="images/Shelterhero.png"] {
    
 }
 
-h1 {
-    margin-left: 30px;
-}
+
 
 img[src="images/Business.png"] {
     display: inline;
@@ -85,5 +83,48 @@ br {
 .card-body {
     line-height: 1.5;
 }
+
+.casestudynav {
+    margin-left: 40px;
+    width: 25%;
+}
+img[src="images/Color.png"] {
+    display: inline;
+    max-width: 1000px;
+   
+}
+img[src="images/styletile.png"] {
+    display: inline;
+    max-width: 1000px;
+    
+}
+
+img[src="images/applyleft.png"] {
+    width: 100%;
+    
+}
+img[src="images/applyright.png"] {
+    width: 100%;
+    
+}
+
+.container {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-4 {
+    margin-left: 30px;
+}
+
+.lead {
+    margin-left: 30px;
+}
+
+
+
+
+
+
 
   
