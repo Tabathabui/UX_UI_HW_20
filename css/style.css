@@ -52,8 +52,9 @@
 }
 
 .media {
-    color: black;
+
     font-family: 'Roboto', sans-serif;
+   
 }
 img[src="images/Shelterhero.png"] {
     display: inline;
@@ -86,7 +87,8 @@ br {
 
 .casestudynav {
     margin-left: 40px;
-    width: 25%;
+    width: 100%;
+    
 }
 img[src="images/Color.png"] {
     display: inline;
@@ -121,7 +123,28 @@ img[src="images/applyright.png"] {
     margin-left: 30px;
 }
 
+img[src="images/Homepage.png"] {
+    display: inline;
+    max-width: 100%;
+   
+}
 
+img[src="images/iterations.png"] {
+    display: inline;
+    max-width: 100%;
+   
+}
+
+#carouselExampleControls {
+    height: 400px;
+    width: 100%;
+}
+
+img[src="images/solved.png"] {
+    display: inline;
+    max-width: 100%;
+   
+}
 
 
 
