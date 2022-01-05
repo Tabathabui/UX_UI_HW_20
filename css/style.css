@@ -47,9 +47,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.lead{ 
-   
-}
 
 .media {
 
@@ -68,18 +65,18 @@ img[src="images/Business.png"] {
     display: inline;
     width: 100%;
   
-  }
+}
 
 img[src="images/Veteran.png"] {
     display: inline;
     width: 100%;
   
     
-  }
+}
 
 br {
     line-height: 1;
-  }
+}
 
 .card-body {
     line-height: 1.5;
